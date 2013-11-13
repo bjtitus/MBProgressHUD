@@ -599,6 +599,8 @@ static const CGFloat kDetailsLabelFontSize = 12.f;
 	}
 	
 	self.size = totalSize;
+
+	[super layoutSubviews];
 }
 
 #pragma mark BG Drawing
